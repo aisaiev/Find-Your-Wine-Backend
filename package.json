@@ -1,0 +1,14 @@
+{
+  "name": "find-your-wine-backend",
+  "version": "1.0.0",
+  "description": "Find Your Wine Backend",
+  "main": "server.js",
+  "author": "Anton Isaiev",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
