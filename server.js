@@ -1,6 +1,7 @@
 const vivinoService = require('./vivino.service');
 const express = require('express');
 const app = express();
+const PORT = 5000;
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -18,4 +19,4 @@ app.get('/get-wine-rating', async (req, res) => {
   res.json(wineRating);
 });
 
-app.listen(3000, 'localhost');
+app.listen(PORT);
