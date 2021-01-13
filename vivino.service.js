@@ -29,7 +29,6 @@ const exportWineRating = (wineQueryResult) => {
 function initCacheCleanDispatcher(interval) {
   setInterval(() => {
     wineRatingCache.clear();
-    console.log('CLEAR');
   }, interval);
 }
 
